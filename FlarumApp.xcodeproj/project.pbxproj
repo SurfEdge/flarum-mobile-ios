@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030734FD1ED5BA7000975CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030734FC1ED5BA7000975CD0 /* AppDelegate.swift */; };
+		030734FF1ED5BA7000975CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030734FE1ED5BA7000975CD0 /* ViewController.swift */; };
+		030735021ED5BA7000975CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030735001ED5BA7000975CD0 /* Main.storyboard */; };
+		030735041ED5BA7000975CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030735031ED5BA7000975CD0 /* Assets.xcassets */; };
+		030735071ED5BA7000975CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030735051ED5BA7000975CD0 /* LaunchScreen.storyboard */; };
+		030735121ED5BA7000975CD0 /* FlarumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030735111ED5BA7000975CD0 /* FlarumAppTests.swift */; };
+		0307351D1ED5BA7000975CD0 /* FlarumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0307350E1ED5BA7000975CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030734F11ED5BA6F00975CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030734F81ED5BA7000975CD0;
+			remoteInfo = FlarumApp;
+		};
+		030735191ED5BA7000975CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030734F11ED5BA6F00975CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030734F81ED5BA7000975CD0;
+			remoteInfo = FlarumApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030734F91ED5BA7000975CD0 /* FlarumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlarumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030734FC1ED5BA7000975CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030734FE1ED5BA7000975CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		030735011ED5BA7000975CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030735031ED5BA7000975CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030735061ED5BA7000975CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030735081ED5BA7000975CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307350D1ED5BA7000975CD0 /* FlarumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlarumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030735111ED5BA7000975CD0 /* FlarumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlarumAppTests.swift; sourceTree = "<group>"; };
+		030735131ED5BA7000975CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030735181ED5BA7000975CD0 /* FlarumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlarumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlarumAppUITests.swift; sourceTree = "<group>"; };
+		0307351E1ED5BA7000975CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030734F61ED5BA7000975CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307350A1ED5BA7000975CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030735151ED5BA7000975CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030734F01ED5BA6F00975CD0 = {
+			isa = PBXGroup;
+			children = (
+				030734FB1ED5BA7000975CD0 /* FlarumApp */,
+				030735101ED5BA7000975CD0 /* FlarumAppTests */,
+				0307351B1ED5BA7000975CD0 /* FlarumAppUITests */,
+				030734FA1ED5BA7000975CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030734FA1ED5BA7000975CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030734F91ED5BA7000975CD0 /* FlarumApp.app */,
+				0307350D1ED5BA7000975CD0 /* FlarumAppTests.xctest */,
+				030735181ED5BA7000975CD0 /* FlarumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030734FB1ED5BA7000975CD0 /* FlarumApp */ = {
+			isa = PBXGroup;
+			children = (
+				030734FC1ED5BA7000975CD0 /* AppDelegate.swift */,
+				030734FE1ED5BA7000975CD0 /* ViewController.swift */,
+				030735001ED5BA7000975CD0 /* Main.storyboard */,
+				030735031ED5BA7000975CD0 /* Assets.xcassets */,
+				030735051ED5BA7000975CD0 /* LaunchScreen.storyboard */,
+				030735081ED5BA7000975CD0 /* Info.plist */,
+			);
+			path = FlarumApp;
+			sourceTree = "<group>";
+		};
+		030735101ED5BA7000975CD0 /* FlarumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				030735111ED5BA7000975CD0 /* FlarumAppTests.swift */,
+				030735131ED5BA7000975CD0 /* Info.plist */,
+			);
+			path = FlarumAppTests;
+			sourceTree = "<group>";
+		};
+		0307351B1ED5BA7000975CD0 /* FlarumAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0307351C1ED5BA7000975CD0 /* FlarumAppUITests.swift */,
+				0307351E1ED5BA7000975CD0 /* Info.plist */,
+			);
+			path = FlarumAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030734F81ED5BA7000975CD0 /* FlarumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030735211ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumApp" */;
+			buildPhases = (
+				030734F51ED5BA7000975CD0 /* Sources */,
+				030734F61ED5BA7000975CD0 /* Frameworks */,
+				030734F71ED5BA7000975CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlarumApp;
+			productName = FlarumApp;
+			productReference = 030734F91ED5BA7000975CD0 /* FlarumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0307350C1ED5BA7000975CD0 /* FlarumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030735241ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumAppTests" */;
+			buildPhases = (
+				030735091ED5BA7000975CD0 /* Sources */,
+				0307350A1ED5BA7000975CD0 /* Frameworks */,
+				0307350B1ED5BA7000975CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307350F1ED5BA7000975CD0 /* PBXTargetDependency */,
+			);
+			name = FlarumAppTests;
+			productName = FlarumAppTests;
+			productReference = 0307350D1ED5BA7000975CD0 /* FlarumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030735171ED5BA7000975CD0 /* FlarumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030735271ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumAppUITests" */;
+			buildPhases = (
+				030735141ED5BA7000975CD0 /* Sources */,
+				030735151ED5BA7000975CD0 /* Frameworks */,
+				030735161ED5BA7000975CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307351A1ED5BA7000975CD0 /* PBXTargetDependency */,
+			);
+			name = FlarumAppUITests;
+			productName = FlarumAppUITests;
+			productReference = 030735181ED5BA7000975CD0 /* FlarumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030734F11ED5BA6F00975CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chamath Palihawadana";
+				TargetAttributes = {
+					030734F81ED5BA7000975CD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4N554GG97N;
+						ProvisioningStyle = Automatic;
+					};
+					0307350C1ED5BA7000975CD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4N554GG97N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030734F81ED5BA7000975CD0;
+					};
+					030735171ED5BA7000975CD0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4N554GG97N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030734F81ED5BA7000975CD0;
+					};
+				};
+			};
+			buildConfigurationList = 030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "FlarumApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030734F01ED5BA6F00975CD0;
+			productRefGroup = 030734FA1ED5BA7000975CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030734F81ED5BA7000975CD0 /* FlarumApp */,
+				0307350C1ED5BA7000975CD0 /* FlarumAppTests */,
+				030735171ED5BA7000975CD0 /* FlarumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030734F71ED5BA7000975CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030735071ED5BA7000975CD0 /* LaunchScreen.storyboard in Resources */,
+				030735041ED5BA7000975CD0 /* Assets.xcassets in Resources */,
+				030735021ED5BA7000975CD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307350B1ED5BA7000975CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030735161ED5BA7000975CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030734F51ED5BA7000975CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030734FF1ED5BA7000975CD0 /* ViewController.swift in Sources */,
+				030734FD1ED5BA7000975CD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030735091ED5BA7000975CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030735121ED5BA7000975CD0 /* FlarumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030735141ED5BA7000975CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307351D1ED5BA7000975CD0 /* FlarumAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0307350F1ED5BA7000975CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030734F81ED5BA7000975CD0 /* FlarumApp */;
+			targetProxy = 0307350E1ED5BA7000975CD0 /* PBXContainerItemProxy */;
+		};
+		0307351A1ED5BA7000975CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030734F81ED5BA7000975CD0 /* FlarumApp */;
+			targetProxy = 030735191ED5BA7000975CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030735001ED5BA7000975CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030735011ED5BA7000975CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030735051ED5BA7000975CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030735061ED5BA7000975CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0307351F1ED5BA7000975CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030735201ED5BA7000975CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030735221ED5BA7000975CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		030735231ED5BA7000975CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		030735251ED5BA7000975CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlarumApp.app/FlarumApp";
+			};
+			name = Debug;
+		};
+		030735261ED5BA7000975CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlarumApp.app/FlarumApp";
+			};
+			name = Release;
+		};
+		030735281ED5BA7000975CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlarumApp;
+			};
+			name = Debug;
+		};
+		030735291ED5BA7000975CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4N554GG97N;
+				INFOPLIST_FILE = FlarumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flarum.app.FlarumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlarumApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030734F41ED5BA6F00975CD0 /* Build configuration list for PBXProject "FlarumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307351F1ED5BA7000975CD0 /* Debug */,
+				030735201ED5BA7000975CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030735211ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030735221ED5BA7000975CD0 /* Debug */,
+				030735231ED5BA7000975CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030735241ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030735251ED5BA7000975CD0 /* Debug */,
+				030735261ED5BA7000975CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030735271ED5BA7000975CD0 /* Build configuration list for PBXNativeTarget "FlarumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030735281ED5BA7000975CD0 /* Debug */,
+				030735291ED5BA7000975CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030734F11ED5BA6F00975CD0 /* Project object */;
+}
