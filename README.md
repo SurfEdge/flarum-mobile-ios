@@ -25,8 +25,8 @@ Edit the url to yours.
 
 ## Screenshots
 
-![Home](https://raw.githubusercontent.com/SurfEdge/flarum-mobile-android/master/screenshots/scr_home.png)
-![Inside](https://raw.githubusercontent.com/SurfEdge/flarum-mobile-android/master/screenshots/scr_inside.png)
+![Home](https://raw.githubusercontent.com/SurfEdge/flarum-mobile-ios/master/Screenshots/Screen%20Shot%202017-05-24%20at%206.32.36%20PM.png)
+![Inside](https://raw.githubusercontent.com/SurfEdge/flarum-mobile-ios/master/Screenshots/Screen%20Shot%202017-05-24%20at%206.32.40%20PM.png)
 
 ## Working App in App Store
 [GuruPaara](https://itunes.apple.com/us/app/gurupaara/id1216158984?mt=8)
